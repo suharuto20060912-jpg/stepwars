@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 
 // ─── Supabase設定 ここを書き換えてください ────────────────────────────────
 const SUPABASE_URL = "https://zkucwakksrcfumrxrhah.supabase.co";
-const SUPABASE_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InprdWN3YWtrc3JjZnVtcnhyaGFoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4NDI2NTEsImV4cCI6MjA4OTQxODY1MX0.Ro_1MSj6eDp_B​​​​​​​​​​​​​​​​
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InprdWN3YWtrc3JjZnVtcnhyaGFoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4NDI2NTEsImV4cCI6MjA4OTQxODY1MX0.Ro_1MSj6eDp_BwAmvkKfq_vHgpDP5cnH9-31JebPiTM";
+
 
 
 const sb = (path, options = {}) =>
